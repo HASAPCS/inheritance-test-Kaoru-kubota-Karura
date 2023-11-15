@@ -28,12 +28,12 @@ public class Smartphone extends ElectronicDevice{
     // Implement the checkBattery method to return:
         // "Warning: Battery low!" if the battery level is 20% or lower.
         // "Battery level is okay: [batteryLevel]%." if the battery level is above 20%.
-    public void checkBattery(){
+    public String checkBattery(){
         if (batteryLevel<20){
-            System.out.println("Warning: Battery low!"); 
+            return "Warning: Battery low!"; 
         }
         else{
-            System.out.println("Battery level is okay:"+batteryLevel+"%");
+            return"Battery level is okay: "+batteryLevel+"%";
         }
     }
 
