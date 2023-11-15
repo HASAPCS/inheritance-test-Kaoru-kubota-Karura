@@ -33,7 +33,7 @@ public class Smartphone extends ElectronicDevice{
             System.out.println("Warning: Battery low!"); 
         }
         else{
-            System.out.println("Battery level is okay:");
+            System.out.println("Battery level is okay:"+batteryLevel+"%");
         }
     }
 
